@@ -6,7 +6,7 @@ The 144-Tile Set
 ----------------
 A standard Hong Kong Mahjong set features exactly **144 tiles**. These tiles operate much like a specialized deck of playing cards, split into three suited classes, honour tiles, and optional bonus tiles.
 
-.. image:: images/full_tile_set.jpg
+.. image:: images/full_tile_set.png
    :alt: All 144 tiles displayed by suit and honor categories
    :align: center
 

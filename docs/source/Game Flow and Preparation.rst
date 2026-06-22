@@ -43,7 +43,7 @@ Step 3: Break the Wall
 1. The active Dealer rolls three dice.
 2. Counting counter-clockwise around the table starting with their own wall as #1, the Dealer counts up to the number rolled to determine which player's wall will be opened.
 3. The player whose wall was selected counts that exact number of tile columns from **right to left**.
-4. They separate the wall cleanly after that column. This split defines the **Live Wall** (where players draw standard turn tiles) and the **Dead Wall** (the short end stack used purely for replacement tiles).
+4. They separate the wall cleanly after that column, then stack the column on top of the tile column on it's right. This split defines the **Live Wall** (where players draw standard turn tiles) and the **Dead Wall** (the short end stack used purely for replacement tiles).
 
 .. image:: images/breaking_the_wall.jpg
    :alt: Example illustration demonstrating a wall break

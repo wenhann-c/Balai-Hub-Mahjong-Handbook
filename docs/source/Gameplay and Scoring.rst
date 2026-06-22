@@ -113,7 +113,4 @@ Gameplay Variants (Balai Hub)
 We sometimes make the game more exciting and challenging by adding some classic requirements or changing some rules such as:
 
 1. **Fan Requirement:** A *1-Fan or 3-Fan minimum* is enforced to legally declare a win.
-2. **First Comes First Serve:** Mahjong claim precedence is not enforced anymore, whoever calls then takes the tile first, gets the tile.
-3. **Quasi Riichi:** .
-4. **Sik Wu (食和 - Winning Discard):** If your hand is "Ready" (needing exactly one tile to complete your 14-tile dragon), you can claim that tile **from any player's discard** to win immediately. Announce "Sik Wu!". This takes absolute priority over all other calls.
-5. **Cheung Gong (搶槓 - Robbing the Kong):** If an opponent attempts to upgrade an open Pong to a Promoted Kong using a tile you need for a win, you can intercept their tile to declare a "Sik Wu" discard victory.
+2. **First Come First Serve:** Mahjong claim precedence is not enforced anymore, whoever calls then takes the tile first, gets the tile.
