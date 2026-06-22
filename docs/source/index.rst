@@ -24,6 +24,7 @@ Contents
    Tiles and Sets
    Game Flow and Preparation
    Gameplay and Scoring
+   Code of Conduct
 
 Indices and Tables
 ==================

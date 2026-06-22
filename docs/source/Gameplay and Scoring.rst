@@ -7,6 +7,7 @@ How a Player's Turn Works
 Play flows counter-clockwise. The hand starts when the Dealer discards a 14th tile into the center pool.
 
 On your turn, follow this sequence:
+
 1. **Draw:** Take one tile from the open end of the Live Wall.
 2. **Handle Special Tiles:** If you draw a Flower or complete a Quadruplet, declare it, place it open, and draw a replacement from the Dead Wall. Repeat if necessary.
 3. **Check for Win:** If the drawn tile completes your 14-tile hand, declare a self-pick win by calling **"Ji Mo!" (自摸)** and lay your hand open.
@@ -15,6 +16,7 @@ On your turn, follow this sequence:
 Declaring Kongs on Your Turn
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 You can declare a Quadruplet (Kong) on your turn under two circumstances:
+
 * **Concealed Kong (暗槓):** You hold 3 identical hidden tiles in your hand and draw the 4th matching tile from the wall. Reveal them with the two middle tiles face-down to show the hand remains structurally concealed.
 * **Promoted Kong (加槓):** You have an already revealed triplet (Pong) on the table and draw the 4th matching tile from the wall. Add it to your open set.
 
@@ -32,6 +34,7 @@ The legal meld choices are ranked by priority:
 
 Hand Status: Open vs. Concealed
 -------------------------------
+
 * **Concealed Hand:** You have not taken any tiles from other players' discards via Seung, Pong, or Open Kong. Your hand is still considered concealed if you declare a Concealed Kong, or if you win via an opponent's discard.
 * **Open Hand:** As soon as you complete a meld using a public discard, your hand is permanently classified as open.
 
@@ -43,69 +46,160 @@ Balai Hub Official Fan Scoring Sheet
 ------------------------------------
 Your hand's Total Fan Score is the sum of all matching features. Indented features completely replace their parent category (e.g., scoring a *Full Flush* means you do not count *Half Flush*).
 
-Win Actions
-~~~~~~~~~~~
-* **Self-Pick (自摸) - 1 Fan:** You select your winning tile directly from the wall.
-* **Win by Kong Replacement (槓上開花) - 2 Fan:** Your winning tile is a replacement tile drawn due to declaring a Kong.
-* **Double Kong Replacement (槓上槓):** You call a Kong, draw a replacement tile that forces a *second* Kong, and win on that second replacement tile.
-* **Concealed Hand (門前清) - 1 Fan:** You did not take any tiles from other players' discards in order to win.
-* **Robbing the Kong (搶槓) - 1 Fan:** You win by interrupting another player upgrading a Pong to a Kong.
-* **Last Tile (海底) - 1 Fan:** Your winning tile was the absolute last tile in the wall or the last discard of the hand.
+.. note::
+   **How to Use**
+   
+   * Your hand's Total Fan Score is the sum of the Fan Score of all matching features.
+   * Indented features replace the parent feature (e.g., *Full Flush* replaces *Half Flush*).
+   * Unless stated otherwise, *triplets* and *quadruplets* are interchangeable.
+   * Calculate your payout on the Payment Table on the opposite side.
 
-Single Set Type Hands
-~~~~~~~~~~~~~~~~~~~~~
-* **All Sequences (平糊) - 1 Fan:** All four sets in your hand are sequences.
-* **All Triplets (對對糊) - 3 Fan:** All four sets in your hand are triplets or quadruplets.
-* **All Concealed Triplets (四暗刻) - 8 Fan:** All sets are triplets formed completely without public discards; the winning tile must complete your pair.
-* **All Quadruplets (四槓子) - 13 Fan:** All four sets in your hand are quadruplets.
+---
+
+Win Actions & Single Set Type Hands
+-----------------------------------
+
+.. list-table:: 
+   :widths: 15 35 50
+   :header-rows: 1
+
+   * - Fan Score
+     - Hand Type / Action
+     - Description
+   * - **1**
+     - **Self-Pick** (自摸)
+     - You select your winning tile from the wall.
+   * - **2**
+     - **Win by Kong Replacement** (槓上開花)
+     - The winning tile is a replacement tile due to calling a Kong.
+   * - **9**
+     - ↳ **Double Kong Replacement** (槓上槓)
+     - If you call a Kong, call a second Kong using the replacement tile, then win on the second replacement.
+   * - **1**
+     - **Concealed Hand** (門前清)
+     - You did not take any tiles from other players in order to win.
+   * - **1**
+     - **Robbing the Kong** (搶槓)
+     - You win by interrupting another player upgrading a Pong to a Kong using your winning tile.
+   * - **1**
+     - **Last Tile** (海底)
+     - Your winning tile was the last tile in the wall or the last discard.
+   * - **1**
+     - **All Sequences** (平糊)
+     - All sets are sequences.
+   * - **3**
+     - **All Triplets** (對對糊)
+     - All sets are triplets.
+   * - **8**
+     - ↳ **All Concealed Triplets** (四暗刻)
+     - All sets are triplets and no tiles taken from other players. The winning tile must complete the pair.
+   * - **13**
+     - ↳ **All Quadruplets** (四槓子)
+     - All four sets are quadruplets.
 
 Special Tile Hands
-~~~~~~~~~~~~~~~~~~
-* **Dragon Triplet (三元牌) - 1 Fan each:** Score 1 Fan for each completed triplet of Red, Green, or White dragons.
-* **Small Three Dragons (小三元) - 5 Fan:** Contains two completed dragon triplets and a pair of the third dragon.
-* **Big Three Dragons (大三元) - 8 Fan:** Contains three completed triplets of all three dragon types.
-* **Round Wind / Seat Wind (圈風/門風) - 1 Fan each:** A triplet matching the active round wind or your seat wind. If a wind triplet matches both simultaneously, it scores **2 Fan**.
-* **Small Four Winds (小四喜) - 6 Fan:** Three wind triplets and a pair of the fourth wind.
-* **Big Four Winds (大四喜) - 13 Fan:** Four completed triplets of all four wind types.
+------------------
 
-Flowers and Seasons
-~~~~~~~~~~~~~~~~~~~
-* **No Flowers or Seasons (無花) - 1 Fan:** Your hand contains zero bonus tiles.
-* **Seat Flower or Season (正花) - 1 Fan each:** Earn 1 Fan for each bonus tile matching your active seat number (East = 1, South = 2, West = 3, North = 4).
-* **All Flowers or All Seasons (一檯花) - 2 Fan:** You collect either all four Flowers or all four Seasons.
-* **Seven Flowers (花糊) - 3 Fan:** You can choose to win immediately upon declaring your 7th flower tile.
-* **Eight Flowers (大花糊) - 8 Fan:** You can choose to win immediately upon declaring your 8th flower tile.
+.. list-table:: 
+   :widths: 15 35 50
+   :header-rows: 1
 
-Flushes and Terminal Hands
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-* **Mixed Flush (混一色) - 3 Fan:** Your hand contains suited tiles from only one suit plus honour tiles.
-* **Full Flush (清一色) - 7 Fan:** Your hand contains suited tiles from exactly one suit.
-* **Mixed Terminals (混么九) - 4 Fan:** Your hand contains only ones, nines, and honours (Includes the 3 Fan for All Triplets).
-* **All Honours (字一色) - 10 Fan:** Your hand contains only honour tiles (Includes the 3 Fan for All Triplets).
-* **All Terminals (清幺九) - 13 Fan:** Your hand contains only ones and nines (Includes the 3 Fan for All Triplets).
-* **Nine Gates (九蓮寶燈) - 13 Fan:** A hand of a single suit matching the pattern 1-1-1-2-3-4-5-6-7-8-9-9-9, plus any 14th tile of that same suit.
+   * - Fan Score
+     - Hand Type
+     - Description
+   * - **1x**
+     - **Dragon** (三元牌)
+     - A triplet of dragon tiles. Score for each triplet.
+   * - **5**
+     - ↳ **Small Three Dragons** (小三元)
+     - Two dragon triplets and a pair of the third dragon.
+   * - **8**
+     - ↳ **Big Three Dragons** (大三元)
+     - Three dragon triplets.
+   * - **1x**
+     - **Round Wind / Seat Wind** (圈風 / 門風)
+     - A triplet of either the round wind or your seat wind. If the triplet is both, count for 2 Fan.
+   * - **6**
+     - ↳ **Small Four Winds** (小四喜)
+     - Three wind triplets and a pair of the fourth wind.
+   * - **13**
+     - ↳ **Big Four Winds** (大四喜)
+     - Four wind triplets.
+   * - **3**
+     - **Mixed Flush** (混一色)
+     - Your hand contains only one suit plus honours.
+   * - **7**
+     - ↳ **Full Flush** (清一色)
+     - Your hand contains only one suit.
+   * - **4**
+     - **Mixed Terminals** (混么九)
+     - Your hand contains only ones, nines and honours. *3 Fan from All Triplets is included.*
+   * - **13**
+     - ↳ **All Terminals** (清么九)
+     - Your hand contains only ones and nines. *3 Fan from All Triplets is included.*
+   * - **10**
+     - **All Honours** (字一色)
+     - Your hand contains only honour tiles. *3 Fan from All Triplets is included.*
 
-Limit Special Hands
-~~~~~~~~~~~~~~~~~~~
-* **Blessing of Heaven (天糊) - 13 Fan:** As Dealer, your distributed starting hand wins the round immediately.
-* **Blessing of Earth (地糊) - 13 Fan:** As a non-dealer, you win using the Dealer's very first discard of the hand.
-* **Blessing of Man (人糊) - 13 Fan:** As a non-dealer, you declare a self-pick win on your very first turn of the hand.
+Flowers and Seasons & Special Hands
+-----------------------------------
 
-Payout System (Discarder Pays All)
-----------------------------------
+.. list-table:: 
+   :widths: 15 35 50
+   :header-rows: 1
+
+   * - Fan Score
+     - Hand Type
+     - Description
+   * - **1**
+     - **No Flowers or Seasons** (無花)
+     - You have no flowers or seasons.
+   * - **1x**
+     - **Seat Flower or Season** (正花)
+     - 1 Fan for each flower or season of your seat number.
+   * - **2**
+     - **All Flowers or All Seasons** (一檯花)
+     - You have either all four flowers or all four seasons.
+   * - **3**
+     - **Seven Flowers** (花糊)
+     - You can choose to win immediately upon declaring the 7th flower tile.
+   * - **8**
+     - **Eight Flowers** (大花糊)
+     - You can choose to win immediately upon declaring the 8th flower tile.
+   * - **13**
+     - **Blessing of Heaven** (天糊)
+     - As dealer, your beginning hand wins.
+   * - **13**
+     - **Blessing of Earth** (地糊)
+     - As non-dealer, you win using the dealer's first discard.
+   * - **13**
+     - **Blessing of Man** (人糊)
+     - As non-dealer, you win on your first turn with a self-pick.
+   * - **13**
+     - **Nine Gates** (九蓮寶燈)
+     - 111 2345678 999 of a single suit, plus a 14th tile of the same suit.
+   * - **13**
+     - **Thirteen Orphans** (十三么)
+     - One of each one, nine, wind and dragon, plus a 14th tile that matches one of the other thirteen.
+   * - **4**
+     - **Seven Pairs** (七對子)
+     - Seven different pairs. Can stack with All Honours, Mixed Flush and Full Flush. *(Only played in certain variants)*
+
+Scoring System (Discarder Pays All)
+-----------------------------------
 Balai Hub utilizes the traditional **"Discarder Pays All" (全銃制)** penalty framework to increase tactical accountability:
 
-* **Winning by Self-Pick (自摸):** All three losing players pay the base point value listed on the Payment Table below matching your Fan total.
-* **Winning by Discard (食和):** The player who discarded the winning tile must single-handedly pay the entire debt. They are penalized by paying **2x the listed point value**, while the other two innocent players pay 0.
+* **Winning by Self-Pick (自摸):** All three losing players lose half the base point value listed on the Score Table below matching your Fan total, however no points will be deducted for **0 Fan**.
+* **Winning by Discard (食和):** The player who discarded the winning tile must single-handedly lose **the listed point value**, while the other two innocent players lose none.
 
-.. list-table:: Payment Table
+.. list-table:: Score Table
    :widths: 20 30 20 30
    :header-rows: 1
 
    * - Fan Count
-     - Base Payout Points
+     - Base Scoring Points
      - Fan Count
-     - Base Payout Points
+     - Base Scoring Points
    * - 0 Fan
      - 1 Point
      - 7 Fan
