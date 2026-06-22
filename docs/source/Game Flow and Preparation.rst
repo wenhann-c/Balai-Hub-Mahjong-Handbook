@@ -62,3 +62,39 @@ Step 5: Organize Tiles & Declare Flowers
 * Starting with the Dealer, any player holding bonus Flower or Season tiles must lay them face up on the table next to their hand.
 * They immediately replace them by drawing an equal number of tiles from the back of the **Dead Wall**.
 * If a replacement tile happens to be another Flower, they repeat the process until all players have clean, flower-free starting hands.
+
+Game Structure: Matches, Rounds, and Hands
+==========================================
+
+A standard Mahjong session is structured around cycles of rounds and hands, shifting dealer positions and wind indicators dynamically.
+
+Terminology & Hierarchy
+-----------------------
+
+* **Match (雀 - Jeuk):** The complete game unit, consisting of 4 full rounds.
+* **Round (圈 - Hyun):** A set of hands named after the four directions, progressing in the order of **East ➔ South ➔ West ➔ North**.
+* **Hand / Game (局 - Guk):** An individual round of play. Each Round contains at least 4 Hands (e.g., East Round, Hand 1 through Hand 4).
+
+Dealer Rotation & Wind Indicators
+---------------------------------
+
+.. list-table:: 
+   :widths: 25 75
+   :header-rows: 1
+
+   * - Scenario
+     - Rule & Movement Mechanism
+   * - **Starting the Game**
+     - The match begins in the **East Round, Hand 1** (East-East). The player sitting in the East position acts as the first Dealer (*Zhuangjia*). A **Wind Indicator** displaying "East" is placed alongside the **Initial Dealer Marker** in front of this player.
+   * - **Passing the Deal (過莊)**
+     - If a non-dealer (a player sitting in South, West, or North) wins the hand, the deal passes clockwise. The player previously sitting in the South position becomes the new Dealer for the next hand (e.g., East Round, Hand 2). 
+     
+       * **Indicator Action:** The Wind Indicator is passed to the new dealer, but the Initial Dealer Marker stays in its original starting position to track where the round began.
+   * - **Retaining the Deal (連莊 / 冧莊)**
+     - If the current Dealer wins the hand, or if the hand ends in a draw (Stalemate / *Liuju*), the dealer retains their position. The game proceeds to a second bout of the exact same hand (e.g., East Round, Hand 1, Bout 2). 
+     
+       * **Indicator Action:** Seat winds, dealer positions, and the Wind Indicator do not change or move.
+   * - **Changing Rounds**
+     - Once all four hands of a round (East, South, West, North hands) are successfully completed, the game transitions to the next overall Round (e.g., from East Round to **South Round**). 
+     
+       * **Indicator Action:** The Wind Indicator returns to the initial dealer's position, and its face is rotated to display the new prevailing wind (e.g., changing from "East" to "South"). The full Match officially concludes after the North Round, Hand 4 is finished.

@@ -30,17 +30,15 @@ To maintain the authenticity of play and ensure smooth communication around the 
 
    * - English Concept
      - Cantonese Term
-   * - Mahjong / Complete Winning Hand
-     - 麻雀 (*ma zoek*)
-   * - Chow (Claiming a Discard to Form a Sequence)
-     - 上 (*soeng*)
+   * - Chow/Chi (Claiming a Discard to Form a Sequence)
+     - 吃 / 上 (*sik / soeng*)
    * - Pong (Claiming a Discard to Form a Triplet)
      - 碰 (*pung*)
    * - Kong (Declaring a Quadruplet)
      - 槓 (*gong*)
-   * - Win by Self-Pick
+   * - Mahjong (Win by Self-Pick)
      - 自摸 (*zi mo*)
-   * - Win by Claiming an Opponent's Discard
-     - 食和 (*sik wu*)
+   * - Mahjong (Win by Claiming an Opponent's Discard)
+     - 食和 / 和 (*sik wu / wu*)
    * - Chicken Hand (A Baseline 0-Fan Hand)
      - 雞和 (*gaai wu*)
