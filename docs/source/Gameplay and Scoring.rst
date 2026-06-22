@@ -30,7 +30,7 @@ The legal meld choices are ranked by priority:
 2. **Pong (碰 - Triplet):** If you hold two identical hidden tiles, you can claim a matching third tile **from any player's discard**. Announce "Pong" and lay the triplet face up. This takes priority over a Seung call.
 3. **Kong (槓 - Open Quadruplet):** If you hold three identical hidden tiles, you can claim the fourth **from any player's discard**. Announce "Kong," lay all four face up, and draw a replacement tile from the Dead Wall.
 4. **Sik Wu / Wu (食和 / 和 - Winning Discard):** If your hand is "Ready" (needing exactly one tile to complete your 14-tile dragon), you can claim that tile **from any player's discard** to win immediately. Announce "Sik Wu!". This takes absolute priority over all other calls.
-5. **Cheung Gong (搶槓 - Robbing the Kong):** If an opponent attempts to upgrade an open Pong to a Promoted Kong using a tile you need for a win, you can intercept their tile to declare a "Sik Wu" discard victory.
+5. **Cheung Kong (搶槓 - Robbing the Kong):** If an opponent attempts to upgrade an open Pong to a Promoted Kong using a tile you need for a win, you can intercept their tile to declare a "Sik Wu" discard victory.
 
 Hand Status: Open vs. Concealed
 -------------------------------
@@ -42,9 +42,10 @@ Mahjong Claim Precedence
 ------------------------
 When a tile is discarded, multiple players may want to claim it. Claims are resolved based on the following strict order of precedence (highest priority to lowest):
 
-.. code-block:: text
-
-   Wu (Win) > Kong (Quadruplet) > Pong (Triplet) > Seung (Sequence)
+1. Zi Mo (Win by Self-Pick)
+2. Wu (Win)
+3. Kong (Quadruplet) & Pong (Triplet)
+4. Seung (Sequence)
 
 Minimum Fan Requirements
 ------------------------
@@ -54,15 +55,13 @@ Balai Hub Official Fan Scoring Sheet
 ------------------------------------
 Your hand's Total Fan Score is the sum of all matching features. Indented features completely replace their parent category (e.g., scoring a *Full Flush* means you do not count *Half Flush*).
 
+.. image:: images/Mahjong_Fan_Sheet.png
+  :align: center
+
 .. note::
    
    * Unless stated otherwise, *triplets* and *quadruplets* are interchangeable.
    * Calculate your final score on the Score Table.
-
-   .. image:: images/Mahjong_Fan_Sheet.png
-      :align: center
-
----
 
 Scoring System (Discarder Pays All)
 -----------------------------------
